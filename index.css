@@ -275,3 +275,17 @@ line-height: 27px;
     line-height: 26px;
     text-align: center;  
 }
+.cal{
+    display: flex;
+    justify-content: center;
+}
+.h5text{
+    font-family: Objective;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 19px;
+
+
+color: #0F001A;
+}
