@@ -422,3 +422,25 @@ main{
     margin-left: 60px;
 
 }
+.app{
+    font-family: Objective;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 26px;
+text-align: center;
+color: #0F001A;
+}
+.in{
+    width: 444px;
+    font-family: Objective;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 27px;
+text-align: center;
+color: #0F001A;
+opacity: 0.5;
+padding-top: 20px;
+padding-bottom: 50px;
+}
