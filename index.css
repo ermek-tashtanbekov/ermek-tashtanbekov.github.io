@@ -234,3 +234,15 @@ align-items: center;
     display: flex;
     justify-content: flex-start;
 }
+/**/
+/**/
+/*SERVISES*/
+.servises{
+    width: 1440px;
+    width: 100%;
+    background: rgba(30, 134, 207, 0.1);
+}
+.srvises-itm{
+    padding-top: 95px;
+    padding-bottom: 95px; 
+}
