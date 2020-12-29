@@ -66,3 +66,21 @@ margin: 0 auto;
    flex-direction: column;
    justify-content: center;
 }
+.imi{
+   
+    display: flex;
+    padding-top: 100px;
+}
+.icon{
+    background-image: url(./IMG/Group\ 51google-blue.png);
+    width: 180px;
+    height: 60px;
+    display: block;
+}
+.logo{
+    background-image: url(./IMG/Group\ 52apple-blue.png);
+    width: 180px;
+    height: 60px;
+    display: block;
+    margin-left: 20px;
+}
