@@ -184,3 +184,30 @@ justify-content: center;
     
     color: #0F001A; 
 }
+.contienerwe{
+    padding: 40px;
+    
+}
+.sit{
+    font-family: Objective;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0F001A;
+    opacity: 0.6; 
+    padding-top: 15px;
+}
+.more{
+    font-family: Objective;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-decoration: none;
+display: flex;
+align-items: center;
+color: #4A99D3;
+display: flex;
+align-items: center;
+}
