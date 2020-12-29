@@ -494,3 +494,20 @@ footer{
     justify-content: space-between;
     padding-top: 57px;
 }
+.h5footer{
+    font-family: Objective;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+     text-decoration: underline 3px solid white;
+     
+    color: #FFFFFF;   
+}
+.footh5{
+    display: flex;
+     padding-bottom: 50px;
+}
