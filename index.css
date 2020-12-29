@@ -135,21 +135,7 @@ text-align: left;
     display: flex;
     justify-content: flex-end;
 }
-@media screen and (max-width:1190px){
-    .nav{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin: 0;
-    }
-    .nav-nav{
-        font-size: 35px;
-    }
-    .ulul{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+
 /**/
 .conterner22{
     max-width: 950px;
@@ -243,6 +229,9 @@ align-items: center;
     display: flex;
     align-items: center;
 }
+
+
+
 /**/
 .rok{
     display: flex;
@@ -613,4 +602,111 @@ color: #FFFFFF;
     font-size: 10.41px;
     line-height: 11px;
     color: #FFFFFF; 
+}
+@media screen and (max-width:1190px){
+    .nav{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+    .nav-nav{
+        font-size: 35px;
+    }
+    .ulul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .aa{
+        padding: 5px;
+    }
+    .lili{
+      line-height: 5px;
+    }
+}
+@media(max-width:1060px){
+    .bloc-contiener-1{
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        margin: 5px;
+        
+    }
+   .blok-text{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       margin-bottom: 100px;
+       margin-top: auto;
+       
+   }
+   .nav-text{
+       text-align: center;
+       max-width: 450px;
+       transition: 2s;
+   }
+   h1{
+       display: flex;
+       align-items: center;
+       text-align: center;
+       font-size: 48px;
+   }
+   .imi{
+       display: flex;
+       align-items: center;
+        flex-flow: row wrap;
+   }
+   .img{
+       display: flex;
+       align-items: center;
+       margin: 0;
+       flex-direction: column;
+       transform: scale(0.8);
+   }
+   .phone2{
+      margin: 0;
+   }
+   .blockk22{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+   }
+   .conteinerbloc22{
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       margin-top: 20px;
+       flex-basis: calc(25% - 20px);
+       transition: 2s;
+   }
+   .juct{
+       margin-top: 70px;
+       display: flex;
+       align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    transition: 2s;
+   }
+   .asw{
+    flex-basis: calc(10% - 20px);
+   }
+   .luul{
+       flex-basis: calc(5% - 20px);
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   
+}
+@media(max-width:1056px) {
+    .luul{
+       margin: 10px; 
+    
+    
+       justify-content: center;
+    }
 }
