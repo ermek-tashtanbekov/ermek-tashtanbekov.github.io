@@ -262,3 +262,16 @@ line-height: 27px;
      flex-basis: calc(25% - 100px);  
 
 }
+.servises_text{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.dolor{
+    font-family: Objective;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;  
+}
