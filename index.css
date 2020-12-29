@@ -308,3 +308,14 @@ color: #0F001A;
     background-image: url(../img/fa-solid_quote-left.png);
     display: block;
 }
+.section{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 5px;
+
+}
+.second{
+display: flex;
+
+}
