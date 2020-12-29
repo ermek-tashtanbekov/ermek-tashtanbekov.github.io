@@ -246,3 +246,19 @@ align-items: center;
     padding-top: 95px;
     padding-bottom: 95px; 
 }
+.how{
+    text-align: center;
+    color: #6c7c88;
+    font-family: Objective;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 27px;
+}
+.bloch{
+    padding-top: 35px;
+    display: flex;
+     justify-content: space-evenly;  
+     flex-basis: calc(25% - 100px);  
+
+}
