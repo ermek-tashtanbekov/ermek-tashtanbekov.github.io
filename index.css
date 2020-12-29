@@ -305,7 +305,7 @@ color: #0F001A;
 .vector2{
     width: 50px;
     height: 43px;
-    background-image: url(../img/fa-solid_quote-left.png);
+    background-image: url(./IMG/fa-solid_quote-leftkavichka.png);
     display: block;
 }
 .section{
@@ -409,7 +409,7 @@ main{
     width: 165px;
     height: 52px;
     display: block;
-    background-image: url(../img/Groupgoogle-blec.png);
+    background-image: url(./IMG/Group\ \(2\).png);
     background-size: cover;
     margin-right: -50px;
 }
@@ -417,7 +417,7 @@ main{
     width: 165px;
     height: 52px;
     display: block;
-    background-image: url(../img/Groupapple-blec.png);
+    background-image: url(./IMG/Group\ \(3\).png);
     background-size: cover;
     margin-left: 60px;
 
@@ -466,3 +466,17 @@ padding-bottom: 50px;
 .goog{
     display: flex;
 }
+/**/
+.boks2{
+    padding-top: 50px;
+}
+.boks{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -6px;
+}
+.leef{
+    display: flex;
+    justify-content: flex-end;
+    
+}/**/
