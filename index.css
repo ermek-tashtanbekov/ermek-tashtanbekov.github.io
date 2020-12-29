@@ -319,3 +319,33 @@ color: #0F001A;
 display: flex;
 
 }
+.what{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+     padding-bottom: 55px;
+     padding-top: 35px;
+    font-family: Objective;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 27px;
+
+text-align: center;
+
+
+color: #0F001A;
+}
+.amed{
+    padding-top: 35px;
+padding-left: 25px;
+    font-family: Objective;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #0F001A;
+
+}
