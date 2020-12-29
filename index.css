@@ -230,3 +230,7 @@ align-items: center;
     align-items: center;
 }
 /**/
+.rok{
+    display: flex;
+    justify-content: flex-start;
+}
