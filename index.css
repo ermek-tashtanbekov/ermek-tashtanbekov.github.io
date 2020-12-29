@@ -49,3 +49,20 @@ header{
     font-weight: 600;
     color: #0a7dd4;
 }
+.nav-text{
+    width: 800px;
+}
+/*CONTEINER*/
+.contiener-1{
+    max-width: 1150px;
+    width: 100%;
+margin: 0 auto;
+    height: 100%;
+    padding-top: 110px;
+    
+}
+.bloc-contiener-1{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
