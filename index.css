@@ -4,7 +4,7 @@
 }
 body{
     margin: 0;
-    overflow-x: hidden;
+    
 }
 header{
      background: linear-gradient(170deg, #63aae4 -17.33%, rgba(74, 153, 211, 0) 75.91%),
@@ -135,7 +135,21 @@ text-align: left;
     display: flex;
     justify-content: flex-end;
 }
-
+@media screen and (max-width:1190px){
+    .nav{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+    .nav-nav{
+        font-size: 35px;
+    }
+    .ulul{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 /**/
 .conterner22{
     max-width: 950px;
