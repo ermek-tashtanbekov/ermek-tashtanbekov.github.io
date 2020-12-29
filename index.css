@@ -405,3 +405,20 @@ main{
 
 
 }
+.apple{
+    width: 165px;
+    height: 52px;
+    display: block;
+    background-image: url(../img/Groupgoogle-blec.png);
+    background-size: cover;
+    margin-right: -50px;
+}
+.appler{
+    width: 165px;
+    height: 52px;
+    display: block;
+    background-image: url(../img/Groupapple-blec.png);
+    background-size: cover;
+    margin-left: 60px;
+
+}
