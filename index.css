@@ -124,3 +124,10 @@ text-align: left;
     line-height: 36px;
     max-width: 636px;   
 }  
+.blok-text{
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    width: 100%;
+    margin: 0;
+}
