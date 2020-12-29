@@ -38,3 +38,14 @@ header{
     padding: 20px;
     list-style: none;
 }
+.ulul .lili .aa{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.904);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.nav-nav{
+    font-size: 45px;
+    font-weight: 600;
+    color: #0a7dd4;
+}
