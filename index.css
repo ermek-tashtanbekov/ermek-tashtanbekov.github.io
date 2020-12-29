@@ -444,3 +444,25 @@ opacity: 0.5;
 padding-top: 20px;
 padding-bottom: 50px;
 }
+.elit{
+    padding-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    align-items: center;
+}
+.donovlad{
+    display: flex;
+    width: 1190px;
+    margin: 0 auto;
+}
+.land{
+    display: flex;
+}
+.absolut{
+    display: flex;
+}
+.goog{
+    display: flex;
+}
