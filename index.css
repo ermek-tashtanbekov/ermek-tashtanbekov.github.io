@@ -147,3 +147,20 @@ text-align: left;
     align-items: center;
     justify-content: flex-end;
 }
+.asw{
+    width: 380px;
+    height: 525px;
+    background: #FFFFFF;
+box-shadow: 5px 20px 50px rgba(6, 148, 250, 0.459);
+border-radius: 10px;
+}
+.conteiner22h2{
+    width: 395px;
+    font-family: Objective;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 46px;
+letter-spacing: 0.05em;
+color: #260041;
+}
