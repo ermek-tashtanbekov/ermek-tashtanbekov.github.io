@@ -211,3 +211,22 @@ color: #4A99D3;
 display: flex;
 align-items: center;
 }
+.vectorimg{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.wet{
+    display: flex;
+    align-items: center;
+}
+.gor{
+    display: flex;
+    align-items: center;
+}
+.spanlo{
+    display: flex;
+    align-items: center;
+}
+/**/
