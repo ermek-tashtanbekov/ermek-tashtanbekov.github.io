@@ -699,6 +699,7 @@ color: #FFFFFF;
        margin-top: 20px;
        flex-basis: calc(25% - 20px);
        transition: 2s;
+       transform: scale(0.9);
    }
    .juct{
        margin-top: 70px;
@@ -814,6 +815,7 @@ color: #FFFFFF;
     .width{
         display: flex;
         align-items: center;
+        
         
     }
     .land{
