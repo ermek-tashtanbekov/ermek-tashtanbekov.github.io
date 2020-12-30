@@ -4,7 +4,6 @@
 }
 body{
     margin: 0;
-    
 }
 header{
      background: linear-gradient(170deg, #63aae4 -17.33%, rgba(74, 153, 211, 0) 75.91%),
@@ -322,8 +321,8 @@ color: #0F001A;
 }
 .widdow{
  background-color: rgba(74, 153, 211, 0.1);
-color: background: #4A99D3 10 %;
-;
+color: #4A99D3 10%;
+
 border-radius: 0px 6px 6px 0px;
 width: 677px;
 height: 400px;
@@ -383,16 +382,13 @@ color: #0F001A;
 
 main{
     padding-top: 50px;
-    height: 100%;
+    display: flex;
+    
     max-width: 1028px;
     margin: 0 auto;
 }
 
-.absolut{
-  width: 343px;  
-  width: 100%;
-  height: 100%;
-}
+
 .hight{
     width: 180px;
     height: 343px;
@@ -440,7 +436,7 @@ main{
 
 }
 .app{
-    font-family: Objective;
+    font-family:'roboto'sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 25px;
@@ -467,15 +463,12 @@ padding-bottom: 50px;
     flex-direction: column;
     align-items: center;
     padding-left: 50px;
-    align-items: center;
+    
 }
-.donovlad{
-    display: flex;
-    width: 1190px;
-    margin: 0 auto;
-}
+
 .land{
     display: flex;
+    
 }
 .absolut{
     display: flex;
@@ -699,6 +692,7 @@ color: #FFFFFF;
    .conteinerbloc22{
        display: flex;
        align-items: center;
+    
        flex-direction: column;
        margin-top: 20px;
        flex-basis: calc(25% - 20px);
@@ -776,4 +770,39 @@ color: #FFFFFF;
    .anje{
        text-align: center;
    }
+   .vector2{
+      transform: rotate(120ged);
+   }
+   .row{
+    transform: scale(0.8);
+   }
+}
+/**//*/**/
+@media(max-width:1000){
+   
+    .land{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .absolut{
+       transform: scale(0.4);
+        flex-direction: column;
+    }
+}
+/**/
+/**/
+@media(max-width:1090px){
+    .fotet{
+        display: flex;
+        align-items: center;
+    flex-flow: column;
+    }
+    .foterh5{
+        padding-top: 15px;
+    }
+    .labal{
+        transform: scale(0.7);
+        border-radius: 10%
+    }
 }
