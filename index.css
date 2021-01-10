@@ -16,12 +16,16 @@ header{
     width: 100%;
     height: 100%;
     
+    
 }
+
 .header{
     max-width: 1140px;
     width: 100%;
     height: 100%;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .nav{
     display:flex;
@@ -58,6 +62,8 @@ header{
 margin: 0 auto;
     height: 100%;
     padding-top: 110px;
+    padding-left: 15px;
+    padding-right: 15px;
     
 }
 .bloc-contiener-1{
@@ -129,6 +135,7 @@ text-align: left;
     width: 590px;
     width: 100%;
     margin: 0;
+    padding-right: 15px;
 }
 .de{
     display: flex;
@@ -207,29 +214,34 @@ text-decoration: none;
 color: #4A99D3;
 display: flex;
 align-items: center;
+padding-top: 20px;
 }
 .vectorimg{
     display: flex;
     align-items: center;
     padding-left: 15px;
-    padding-top: 25px;
 }
 .wet{
     display: flex;
     align-items: center;
+
 }
 .gor{
     display: flex;
     align-items: center;
    
-    background-image: url(./IMG/ic_arrow_forward_24pxvector.png); 
-    background-size: cover;      
+   
 }
 .spanlo{
     display: flex;
     align-items: center;
 }
-
+.radius{
+    background-image: url(./IMG/Group\ 73tochka.png);
+    width: 100px;
+    height: 100px;
+    
+}
 
 /**/
 .rok{
@@ -243,6 +255,8 @@ align-items: center;
     width: 1440px;
     width: 100%;
     background: rgba(30, 134, 207, 0.1);
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .srvises-itm{
     padding-top: 95px;
@@ -296,7 +310,8 @@ color: #0F001A;
         max-width:1189px;
         width: 100%;
         height: 100%;
-        margin-right: 0 auto;
+       margin: 0 auto;
+       padding-bottom: 35px;
 }
     .row{
         width: 399px;
@@ -316,7 +331,7 @@ color: #0F001A;
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin: 5px;
+    margin: 10px;
 
 }
 .widdow{
@@ -330,6 +345,8 @@ height: 400px;
 }
 .second{
 display: flex;
+margin-left: 15px;
+margin-right: 15px;
 
 }
 .what{
@@ -376,14 +393,32 @@ width: 418px;
 color: #0F001A;
 }
 .gru{
-
-    padding-top: 200px;
+    max-width: 450px;
+    margin: 0 auto;
+    
+    padding-top: 150px;
 }
-
+.vek{
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+    justify-content: center;
+}
+.secondd{
+    box-shadow: 0 0 5px 0;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+     border-radius: 4px;
+}
+/**/
 main{
     padding-top: 50px;
     display: flex;
-    
+    padding-left: 15px;
+    padding-right: 15px;
     max-width: 1028px;
     margin: 0 auto;
 }
@@ -612,7 +647,16 @@ color: #FFFFFF;
     line-height: 11px;
     color: #FFFFFF; 
 }
+.nav .labal .in {
+    background-color: black;
+    display: none;
+    position: relative;
+    padding: 20px 20px;
+    cursor: pointer;
+}
 @media screen and (max-width:1190px){
+     
+     
     .nav{
         display: flex;
         align-items: center;
@@ -680,7 +724,8 @@ color: #FFFFFF;
        align-items: center;
        margin: 0;
        flex-direction: column;
-       transform: scale(0.8);
+       transform: scale(0.9);
+       margin-left: 10px;
    }
    .phone2{
       margin: 0;
@@ -720,6 +765,10 @@ color: #FFFFFF;
        flex-direction: column;
        align-items: center;
    }
+   .wet{
+       display: flex;
+       justify-content: center;
+   }
    
 }
 @media(max-width:1056px) {
@@ -745,52 +794,95 @@ color: #FFFFFF;
      }  
      .bloch1{
          padding: 20px;
-     }           
+     }         
 }
 /**//**/
-@media(max-width:700px){
-   .section{
-       display: flex;
-       align-items: center;
-       flex-direction: column;
-        
-   }
-   .second{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-     width: 200px; 
-   }
-   .gru{
-       width: 150px;
-       display: flex;
-       align-items: center;
-       flex-direction: column;
-       text-align: center;
-       margin: 15px;
-       margin-top: -100px;
-   }
-   .anje{
-       text-align: center;
-   }
-   .vector2{
-      transform: rotate(120ged);
-   }
-   .row{
-    transform: scale(0.8);
-   }
-}
-/**//*/**/
-@media(max-width:1000){
-   
-    .land{
+@media(max-width:1005px){
+    .sectiom{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .sectiom{
         display: flex;
         align-items: center;
         flex-direction: column;
     }
-    .absolut{
-       transform: scale(0.4);
+    .second{
+        display: flex;
+        align-items: center;
+        flex-direction: column; 
+    }
+    .gru{
+        display: flex;
+        align-items: center;
         flex-direction: column;
+         margin-left: -25px;
+        text-align: center;
+        padding-top: 25px;
+    }
+    .row{
+        transform: scale(0.8);
+    }
+    .vek{
+        margin-left: 13px;
+        padding-top: 19px;
+        transform: scale(0.7);
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/**//*/**/
+@media(max-width:940px){
+    .goog{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .appler{
+        margin: 0;
+    }
+}
+@media(max-width:1000px){
+   .main{
+      margin-top: -100px;
+   }
+    .land{
+        display: flex;
+        flex-direction: column;   
+    }
+    .absolut{
+         display: flex;
+         align-items: center;
+        flex-direction: column;
+    }
+    .width{
+      display: flex;
+      align-items: center;
+      margin-left: 50px;
+    }
+    .left{
+        margin-top: -5px;
+        margin-left: 50px;
+    }
+    .apple{
+        margin: 0;
+    }
+    .appler{
+        margin: 0;
+        margin-top: 5px;
+    }
+    .goog{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+       
+    }
+    .elit{
+        margin-top: -90px;
     }
 }
 /**/
@@ -800,6 +892,13 @@ color: #FFFFFF;
         display: flex;
         align-items: center;
     flex-flow: column;
+    padding-bottom: 10px;
+    }
+    #other{
+        margin-left: 23px;
+    }
+    #produkt{
+        margin-left: 0px;
     }
     .foterh5{
         padding-top: 15px;
@@ -812,29 +911,23 @@ color: #FFFFFF;
         border-radius: 10%;
         flex-direction: column;
     }
-    .width{
+    .text-footer{
         display: flex;
         align-items: center;
-        
-        
+        text-align: center;
     }
-    .land{
-        flex-direction: column;
+    .labal{
+        transform: scale(0.8);
     }
-    .elit{
-        margin-top: -90px;
+    #name{
+        border-radius: 15px;
+
     }
-    .goog{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-       
+    .li{
+        border-radius: 15px;
     }
-    .apple{
-        margin: 0;
-    }
-    .appler{
-        margin: 0;
-        margin-top: 5px;
-    }
+    
+    
+    
+    
 }
