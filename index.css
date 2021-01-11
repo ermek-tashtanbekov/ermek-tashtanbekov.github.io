@@ -4,6 +4,7 @@
 }
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 header{
      background: linear-gradient(170deg, #63aae4 -17.33%, rgba(74, 153, 211, 0) 75.91%),
@@ -41,7 +42,7 @@ header{
     padding: 20px;
     list-style: none;
 }
-.ulul .lili .aa{
+.ulul .lili .aat{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.904);
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -54,6 +55,9 @@ header{
 }
 .nav-text{
     width: 800px;
+}
+.aat:hover{
+    border-bottom: 3px solid white ;
 }
 /*CONTEINER*/
 .contiener-1{
@@ -654,6 +658,10 @@ color: #FFFFFF;
     padding: 20px 20px;
     cursor: pointer;
 }
+.op{
+    border: none;
+    outline: none;
+}
 @media screen and (max-width:1190px){
      
      
@@ -768,6 +776,9 @@ color: #FFFFFF;
    .wet{
        display: flex;
        justify-content: center;
+   }
+   .radius{
+       background-image: none;
    }
    
 }
